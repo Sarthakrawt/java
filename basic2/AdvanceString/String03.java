@@ -14,11 +14,11 @@ public class String03 {
         System.out.println('c');
         System.out.println(12.343f);
         System.out.println(new int[] { 2, 3, 3, 4 });// it will give me random value
-        // it just return a string representation which is the compination of random
+        // it just return a string representation which is the combination of random
         // value , @ and some hashcode
         // so print the array
         System.out.println(Arrays.toString(new int[] { 2, 3, 3, 4 }));
-        // which is a string
+        // which is of string type 
 
         String name = null;
         System.out.println(name);
@@ -28,7 +28,6 @@ public class String03 {
         System.out.println(num.toString());
         // it will give me 54 as we know
         // Integer is a wrapper class
-        // we know that integer are primitive so primitive does not have class or object
-        // to use and they are store in stack meomory
+        // we know that integer are primitive so , primitive does not have class or object to use and they are store in stack meomory
     }
 }
