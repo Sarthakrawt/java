@@ -1,7 +1,10 @@
-package sortingAlgo;
 
 import java.util.Arrays;
-
+//in quick sort you have to compare if the start elem is less then pivot then 
+//it will go to the left side of the array 
+// and end element is greated then the pivot then it will go right side of the array
+// mean all the smaller element goes on left side of pivot and all the larger elem goes right side 
+// of the pivot
 public class Quicksort {
     public static void main(String[] args) {
         int arr[] = { 5, 4, 23, 2, 1 };
