@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class InBuildStackqueue {
+public class InBuildDS {
     public static void main(String[] args) {
 
         // in-build in java
