@@ -8,7 +8,7 @@ public class swap6 {
         // a = b;
         // b = temp;
         // when you pass a value on this swap function it will swap those numbers inside
-        // the fuction
+        // that fuction
         swapp(a, b);
         // it will not swap
         System.out.println(a + " " + b);
@@ -21,13 +21,13 @@ public class swap6 {
         // scope is one of the reason that it will not swap
     }
 }
-// let internally how is working
+// let checkuse internally how is working
 // you make value int a = 12
 // so a is a reference variable and 12 is a value which is situated in heap
-// memory and using reference a is pointing to that value
+// memory and  a is pointing to 12 in heap memory
 // same for function
 // when we make a swap function
-// we are giving a two parameters in that fuction
+// we are giving a two parameters in that function
 // and pass the reference copy as a argument and both are pointing to the same
 // name = kunal
 // change(name);
