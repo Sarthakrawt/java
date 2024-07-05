@@ -5,7 +5,7 @@ public class Arraylist {
     public static void main(String[] args) {
         // Arraylist is part of collection framework
         // arraylist have no limitation in size
-        ArrayList<Integer> arrlist = new ArrayList<>();// in () you can intialize capacity
+        ArrayList<Integer> arrlist = new ArrayList<>();// inside this () you can intialize capacity
         // add is used to add the elements in arraylist
         Scanner sc = new Scanner(System.in);
 
@@ -32,7 +32,7 @@ public class Arraylist {
             System.out.println(arrlist.get(i));// it will give you each element at i index
         }
         System.out.println(arrlist);
-
-        // internally arrlist is reference and
+            // internally arraylist and array memory allocation are same 
+     
     }
 }
