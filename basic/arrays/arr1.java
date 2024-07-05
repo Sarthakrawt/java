@@ -13,11 +13,11 @@ public class arr1 {
         String[] array = new String[4];
         System.out.println(array[0]);
         // internally arrrays are initialized
-        // arr is reference and new int[5] object in heap memory
+        // arr is reference variable and new int[5] object allocate memory for 5 element in the heap memory
         // when we givin the array size it means that we are allocating memory in heap
         // memory
         // then one by one we are givig the value in that memory
-        // where arr[0] are the reference and 12 is in the heap memory
+        // where arr[0] reference to 12  in the heap memory
         // means we are allocating memory in memory
         // arr[0] = 12;
         // arr[1] = 3;
@@ -36,11 +36,12 @@ public class arr1 {
             // get the value in every index
             arr2[i] = sc.nextInt();
         }
+        //advance for loop
         for (int a : arr) {
             System.out.println(a);
         }
 
-        // array of objects
+        // array of String
         String[] arrays = new String[5];
         for (int i = 0; i < arrays.length; i++) {
             arrays[i] = sc.next();
