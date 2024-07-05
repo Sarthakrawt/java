@@ -15,7 +15,7 @@ public class arr {
     }
 
     // check this case
-    // arry will modified because the referance it given to the function
+    // arry will modified because the referance is given to the function not  the copy of the array 
     static void change(int[] arr) {
         arr[0] = 99; // if you make a change to the object via this ref variable same object will be
                      // changed
