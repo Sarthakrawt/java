@@ -13,7 +13,7 @@ public class String05 {
         System.out.println("a" + "b");
 
         System.out.println('a' + 1);
-        // it will give me the next value which is b
+        // it will give me the next value which is b if i convert it into character 
 
         System.out.println("a" + 1);
         // it will show me a1 ie concat both the value
