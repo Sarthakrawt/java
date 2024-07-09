@@ -13,8 +13,9 @@ class demo {
     // and non primitive
     demo() {
         // this is the consturctor
-        // this keyword is used to automatically acces the keyword which we assign
-        // though the object
+        // this keyword is used to automatically access the keyword which we assign
+        // through the object
+        // in simple meaning this keyword is an object 
         this.rno = 12;
         this.name = "raw";
         // it will fixid the value of name ot raw
