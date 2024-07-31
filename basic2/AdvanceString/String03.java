@@ -25,6 +25,16 @@ public class String03 {
         // give me null
 
         Integer num = new Integer(54);
+        // java.lang provide you wrapper class which Consist of properties 
+        // int → Integer
+        // char → Character
+        // boolean → Boolean
+        // byte → Byte
+        // short → Short
+        // long → Long
+        // float → Float
+        // double → Double
+        //For example, Integer has methods like parseInt(), toString(), and constants like MAX_VALUE and MIN_VALUE.
         System.out.println(num.toString());
         // it will give me 54 as we know
         // Integer is a wrapper class
