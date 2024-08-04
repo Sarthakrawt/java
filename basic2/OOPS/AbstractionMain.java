@@ -1,6 +1,6 @@
 package sortingAlgo.OOPs;
 
-public class Abstraction07 {
+public class AbstractionMain {
     public static void main(String[] args) {
         Son07 son = new Son07();
         // this will print Son career
